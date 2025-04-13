@@ -20,7 +20,7 @@ start_index = max(existing_indices) + 1 if existing_indices else 0
 
 cap = cv2.VideoCapture(0)
 count = 0
-target_count = 1000
+target_count = 100
 
 while count < target_count:
     ret, frame = cap.read()
